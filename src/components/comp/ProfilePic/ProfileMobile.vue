@@ -13,7 +13,7 @@
         <v-flex class="mx-6">
             <span class="text-h5" :class="TextBold">
                 Hi, I am <br />
-                Velmurugan Aruljothi <br />
+                Velmurugan ArulJothi <br />
                 I am a <span class="blue--text">{{ DynamicValue }}</span>
                 <span v-if="Synmbol"> {{ BarSynmbol }} </span>
             </span>
