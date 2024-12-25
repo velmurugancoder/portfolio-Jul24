@@ -20,8 +20,8 @@
                     <v-card-title>
                         <v-layout>
                             <v-flex sm2>
-                                <img src="https://drsrasc.org/panel/assets/uploads/logo.jpg" alt="Fortune Logo"
-                                    height="70px" class="elevation-7">
+                                <img src="../../../assets/college.png" alt="Fortune Logo" height="60px"
+                                    class="elevation-7">
                             </v-flex>
 
                             <v-flex sm10 class="mt-n2">
@@ -63,9 +63,9 @@
                 <v-card :color="BG_Color" class="rounded-xl custom-Card">
                     <v-card-title>
                         <v-layout>
-                            <v-flex lg1 sm1>
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-R2tvw3w2GCLqg9ER7J9kU3dTsP0U9rw0f5evqNXDc7Wdv1AXaLQZJc0HkHvK-eZ2F_k&usqp=CAU"
-                                    alt="Fortune Logo" height="70px" class="elevation-7">
+                            <v-flex sm2>
+                                <img src="../../../assets/sarawathi.png" alt="Fortune Logo" height="50px"
+                                    class="elevation-7 mt-2">
                             </v-flex>
 
                             <v-flex sm1></v-flex>
@@ -110,9 +110,9 @@
                 <v-card :color="BG_Color" class="rounded-xl custom-Card">
                     <v-card-title>
                         <v-layout>
-                            <v-flex lg1 sm1>
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfuo46jr9HXoVP4cX_dEbrTReD6_BrsE7jrE_wA_NTOAAJjUpza6VNumWXHV4CLeAqZc8&usqp=CAU"
-                                    alt="Fortune Logo" height="70px" class="elevation-7">
+                            <v-flex sm1>
+                                <img src="../../../assets/fatima.png" alt="Fortune Logo" height="50px"
+                                    class="elevation-7 mt-4">
                             </v-flex>
 
                             <v-flex sm1></v-flex>

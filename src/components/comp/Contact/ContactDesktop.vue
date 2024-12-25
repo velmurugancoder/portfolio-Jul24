@@ -19,7 +19,7 @@
                 </v-card-title>
                 <v-card-text>
                     <v-flex lg12 class="mx-4">
-                        <v-text-field outlined dense class="Custom-Text-FieldColor" label="Your Email" solo>
+                        <v-text-field outlined dense label="Your Email" solo>
                         </v-text-field>
                     </v-flex>
                     <v-flex lg12 class="mx-4">
@@ -31,7 +31,7 @@
                         </v-text-field>
                     </v-flex>
                     <v-flex lg12 class="mx-4">
-                        <v-textarea outlined Solo label="Message"></v-textarea>
+                        <v-textarea outlined Solo label="Message" class="textArea-style mb-4" hide-details></v-textarea>
                     </v-flex>
                     <v-flex lg12 class="mx-4">
                         <v-btn rounded block x-large
@@ -58,4 +58,8 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.textArea-style {
+    background-color: white;
+}
+</style>

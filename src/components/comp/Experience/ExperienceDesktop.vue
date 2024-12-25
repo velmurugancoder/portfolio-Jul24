@@ -6,7 +6,7 @@
 
         <v-flex lg8 class="mt-8" :class="TextBold">
             Here I present my journey as a full-stack web developer, highlighting
-            my extensive experience in blockchain, finance, and mentorship.
+            my extensive experience in Golang, finance, and mentorship.
             Through my portfolio, I showcase the diverse projects and technologies
             I've mastered, demonstrating my expertise in web development and
             beyond.
@@ -16,9 +16,8 @@
             <v-card :color="BG_Color" elevation="4" class="rounded-xl custom-Card">
                 <v-card-title class="mx-3">
                     <v-layout>
-                        <v-flex lg2>
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7gkUHkp7pdOsVOmGB_KJ2ILaluxfkrPUdY2k30dDrTg&s"
-                                alt="Fortune Logo" height="80px" class="elevation-7" />
+                        <v-flex lg2 class="d-flex justify-center">
+                            <img src="../../../assets/flat.png" alt="Fortune Logo" height="80px" class="elevation-7" />
                         </v-flex>
                         <v-flex lg11 class="ml-2 mt-2">
                             <v-flex lg12>
