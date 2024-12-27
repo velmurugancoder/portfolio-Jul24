@@ -17,7 +17,7 @@
                 <v-card-title class="mx-3">
                     <v-layout>
                         <v-flex lg2 class="d-flex justify-center">
-                            <img src="../../../assets/flat.png" alt="Fortune Logo" height="80px" class="elevation-7" />
+                            <img src="@/assets/flat.png" alt="Fortune Logo" height="80px" class="elevation-7" />
                         </v-flex>
                         <v-flex lg11 class="ml-2 mt-2">
                             <v-flex lg12>

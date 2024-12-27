@@ -20,8 +20,7 @@
                     <v-card-title>
                         <v-layout>
                             <v-flex sm2>
-                                <img src="../../../assets/college.png" alt="Fortune Logo" height="60px"
-                                    class="elevation-7">
+                                <img src="@/assets/college.png" alt="Fortune Logo" height="60px" class="elevation-7">
                             </v-flex>
 
                             <v-flex sm10 class="mt-n2">
@@ -64,7 +63,7 @@
                     <v-card-title>
                         <v-layout>
                             <v-flex sm2>
-                                <img src="../../../assets/sarawathi.png" alt="Fortune Logo" height="50px"
+                                <img src="@/assets/sarawathi.png" alt="Fortune Logo" height="50px"
                                     class="elevation-7 mt-2">
                             </v-flex>
 
@@ -111,7 +110,7 @@
                     <v-card-title>
                         <v-layout>
                             <v-flex sm1>
-                                <img src="../../../assets/fatima.png" alt="Fortune Logo" height="50px"
+                                <img src="@/assets/fatima.png" alt="Fortune Logo" height="50px"
                                     class="elevation-7 mt-4">
                             </v-flex>
 
