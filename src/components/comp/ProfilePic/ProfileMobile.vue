@@ -30,7 +30,8 @@
         </v-flex>
 
         <v-flex class="d-flex justify-center">
-            <v-btn x-large color="indigo darken-2" class="rounded-xl text-capitalize" :class="TextBold"
+            <v-btn @click="RouteToResume" x-large color="indigo darken-2" class="rounded-xl text-capitalize"
+                :class="TextBold"
                 style="background: -webkit-linear-gradient(225deg, rgb(132, 0, 255) 0%, rgb(230, 0, 255) 100%);">
                 View My Resume</v-btn>
         </v-flex>
@@ -46,6 +47,11 @@ export default {
         console.log(this.$vuetify.breakpoint.width);
     },
     methods: {
+
+        RouteToResume() {
+            window.open('https://drive.google.com/file/d/1HRHL_Y5l8TyHsxspcbWLrRemwOvDENHj/view?usp=drive_link', '_blank');
+        },
+
         delay(milliseconds) {
             return new Promise((resolve) => setTimeout(resolve, milliseconds));
         },

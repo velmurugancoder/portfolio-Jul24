@@ -19,7 +19,7 @@
                 any development project
             </v-flex>
             <v-flex lg6>
-                <v-btn rounded x-large
+                <v-btn @click="RouteToResume" rounded x-large
                     style="background: -webkit-linear-gradient(225deg, rgb(132, 0, 255) 0%, rgb(230, 0, 255) 100%);"
                     class=" text-capitalize" :class="TextBold">
                     View My Resume</v-btn>
@@ -40,6 +40,11 @@ export default {
         this.ChangeUserDetails("D");
     },
     methods: {
+
+        RouteToResume() {
+            window.open('https://drive.google.com/file/d/1HRHL_Y5l8TyHsxspcbWLrRemwOvDENHj/view?usp=drive_link', '_blank');
+        },
+
         delay(milliseconds) {
             return new Promise((resolve) => setTimeout(resolve, milliseconds));
         },

@@ -1,6 +1,8 @@
 <template>
     <div :style="BG_Color">
 
+
+
         <div class="d-none d-lg-flex d-xl-none d-none d-xl-flex">
             <NaviDesktop />
             <v-container class="mt-10">
@@ -9,6 +11,7 @@
                 <ExperienceDesktop />
                 <ProjectDesktop />
                 <EducationDesktop />
+                <!-- <Contact ref="Contact" /> -->
                 <Contact />
             </v-container>
         </div>
@@ -28,9 +31,11 @@
                 <v-flex>
                     <EducationMobile />
                 </v-flex>
+                <v-flex>
+                    <ContactMobile />
+                </v-flex>
             </v-flex>
         </div>
-
     </div>
 </template>
 
@@ -55,6 +60,7 @@ import EducationDesktop from './comp/Education/EducationDestop.vue';
 import EducationMobile from './comp/Education/EducationMobile.vue';
 
 import Contact from './comp/Contact/ContactDesktop.vue'
+import ContactMobile from './comp/Contact/ContactMobile.vue';
 
 export default {
     data() {
@@ -74,8 +80,9 @@ export default {
         ProjectDesktop,
         EducationDesktop,
         EducationMobile,
-        Contact
-    }
+        Contact,
+        ContactMobile,
+    },
 }
 
 </script>

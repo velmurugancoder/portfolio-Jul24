@@ -48,13 +48,16 @@ export default {
     data() {
         return {
             BG_Color: this.$store.state.BG_Color, //Background color
-            MobileDrawer: true,
+            MobileDrawer: false,
         }
     },
     methods: {
         OpenDrawer() {
             this.MobileDrawer = true
-        }
+        },
+        RotueToGitHub() {
+            window.open('https://github.com/velmurugancoder', '_blank')
+        },
     }
 }
 </script>
